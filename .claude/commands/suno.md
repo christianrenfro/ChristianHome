@@ -18,13 +18,13 @@ Each prompt must have two parts:
 - Comma-separated genre/instrument/mood tags
 - Be specific: "90s boom bap, jazzy piano chops, vinyl crackle, punchy kick-snare" beats "hip hop"
 
-**2. DESCRIPTION** (max 900 characters)
+**2. DESCRIPTION** (target 150-300 characters, hard max 500)
 - The main prompt body Suno uses to shape everything
-- Open with a vivid production description (instruments, tempo, texture, energy)
-- Describe vocal style and delivery
-- Outline the lyrical theme and specific content to include
-- Reference any names, roles, metaphors, or details from the user's idea
+- Lead with BPM and 2-3 core production elements only
+- One sentence on vocal style or mood
+- One sentence on lyrical theme — thematic, not prescriptive (never write specific lyric lines)
 - End mid-thought if needed — Suno often works better with momentum than a clean stop
+- **Less is more.** Over-description fights against Suno. Give it a direction, not a screenplay.
 
 ## Style Rotation Pool
 
@@ -68,10 +68,10 @@ For each variation, output exactly this structure:
 
 ## Quality Rules
 
-- **Be specific with production details** — "icy thin synth stabs over crushing sub kicks" beats "electronic beat"
-- **Name-drop** any people, roles, or brand references from the user's idea naturally in lyrical guidance
-- **Use metaphor and allusion** when the content is business/work-related — make it cool, not corporate
+- **Simple beats elaborate** — a clean 200-char prompt outperforms a bloated 500-char one every time
+- **Thematic not prescriptive** — describe the feeling and subject, never write actual lyric lines into the prompt
+- **Production details in the style tag, not the description** — the tag handles sonic specifics, the description handles feeling and theme
 - **Vary energy levels** across the 5 — not all should be high-intensity bangers
-- **Include vocal direction** in every prompt — gender, delivery style, tone
-- **Never pad to fill length** — a tight 400-char prompt beats a bloated 900-char one
+- **Include vocal direction** — gender, delivery style, tone — but briefly
 - **Keep style tags lowercase and comma-separated** — Suno reads them as tags, not prose
+- **Never over-explain** — Suno is a music model, not a directions-follower. Point it at a feeling and let it go
