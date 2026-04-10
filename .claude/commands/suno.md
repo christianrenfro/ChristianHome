@@ -18,13 +18,13 @@ Each prompt must have two parts:
 - Comma-separated genre/instrument/mood tags
 - Be specific: "90s boom bap, jazzy piano chops, vinyl crackle, punchy kick-snare" beats "hip hop"
 
-**2. DESCRIPTION** (target 150-300 characters, hard max 500)
+**2. DESCRIPTION** (target 200-400 characters, hard max 500)
 - The main prompt body Suno uses to shape everything
-- Lead with BPM and 2-3 core production elements only
 - One sentence on vocal style or mood
-- One sentence on lyrical theme — thematic, not prescriptive (never write specific lyric lines)
+- Always include the key anchors from the user's idea: names, places, brands, themes, specific references — these are what make the song about the thing
+- Lyrical theme should be thematic, not prescriptive — never write actual lyric lines
 - End mid-thought if needed — Suno often works better with momentum than a clean stop
-- **Less is more.** Over-description fights against Suno. Give it a direction, not a screenplay.
+- **Less is more on production detail** — but never sacrifice the specific content that makes the song personal and grounded
 
 ## Style Rotation Pool
 
@@ -68,9 +68,9 @@ For each variation, output exactly this structure:
 
 ## Quality Rules
 
-- **Simple beats elaborate** — a clean 200-char prompt outperforms a bloated 500-char one every time
+- **Simple beats elaborate on production** — but always include the specific people, places, brands, and themes from the user's idea
 - **Thematic not prescriptive** — describe the feeling and subject, never write actual lyric lines into the prompt
-- **Production details in the style tag, not the description** — the tag handles sonic specifics, the description handles feeling and theme
+- **Production details in the style tag, not the description** — the tag handles sonic specifics, the description handles feeling, theme, and anchors
 - **Vary energy levels** across the 5 — not all should be high-intensity bangers
 - **Include vocal direction** — gender, delivery style, tone — but briefly
 - **Keep style tags lowercase and comma-separated** — Suno reads them as tags, not prose
